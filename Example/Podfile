@@ -1,3 +1,6 @@
+source 'https://github.com/lightningkite/cocoapods-spec-repo.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '12.0'
 use_frameworks!
 use_modular_headers!
@@ -13,15 +16,5 @@ target 'DKImagePickerControllerDemo' do
   target 'DKImagePickerControllerDemoTests' do
     inherit! :search_paths
     # Pods for testing
-  end
-
-  post_install do |installer|
-    installer.generated_projects.each do |project|
-          project.targets.each do |target|
-              target.build_configurations.each do |config|
-                  config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
-               end
-          end
-   end
   end
 end

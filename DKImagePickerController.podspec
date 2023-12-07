@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                      :tag => s.version.to_s }
   
   s.requires_arc  = true
-  s.swift_version = ['4.2', '5']
+  s.swift_version = '5'
 
   s.subspec 'Core' do |core|
     core.dependency 'DKImagePickerController/ImageDataManager'
@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Resource' do |resource|
     resource.resource_bundle = { "DKImagePickerController" => "Sources/DKImagePickerController/Resource/Resources/*" }
-
     resource.source_files = "Sources/DKImagePickerController/Resource/DKImagePickerControllerResource.swift"
   end
 
@@ -40,21 +39,22 @@ Pod::Spec.new do |s|
 
   s.subspec 'Camera' do |camera|
     camera.dependency 'DKImagePickerController/Core'
-    camera.dependency 'DKCamera'
+    camera.dependency 'DKCamera', '~> 1.6.9'
 
     camera.source_files = "Sources/Extensions/DKImageExtensionCamera.swift"
   end
 
   s.subspec 'InlineCamera' do |inlineCamera|
     inlineCamera.dependency 'DKImagePickerController/Core'
-    inlineCamera.dependency 'DKCamera'
+    inlineCamera.dependency 'DKCamera', '~> 1.6.9'
 
     inlineCamera.source_files = "Sources/Extensions/DKImageExtensionInlineCamera.swift"
   end
 
   s.subspec 'PhotoEditor' do |photoEditor|
     photoEditor.dependency 'DKImagePickerController/Core'
-    photoEditor.dependency 'CropViewController', '~> 2.6.1'
+    photoEditor.dependency 'CropViewController', '2.6.1-LK'
+    photoEditor.platform = :ios, "12.0"
 
     photoEditor.source_files = "Sources/Extensions/DKImageExtensionPhotoCropper.swift"
   end
