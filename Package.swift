@@ -7,7 +7,7 @@ let package = Package(
     name: "DKImagePickerController",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v9),
+        .iOS(.v12),
     ],
     products: [
         .library(
