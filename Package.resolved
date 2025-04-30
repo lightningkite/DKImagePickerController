@@ -12,10 +12,10 @@
     {
       "identity" : "dkphotogallery",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/zhangao0086/DKPhotoGallery",
+      "location" : "https://github.com/lightningkite/DKPhotoGallery",
       "state" : {
-        "branch" : "master",
-        "revision" : "311c1bc7a94f1538f82773a79c84374b12a2ef3d"
+        "revision" : "7c4011e072e59258bc871549783f239cf842234b",
+        "version" : "1.0.0"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage",
       "state" : {
-        "revision" : "3e48cb68d8e668d146dc59c73fb98cb628616236",
-        "version" : "5.13.2"
+        "revision" : "cac9a55a3ae92478a2c95042dcc8d9695d2129ca",
+        "version" : "5.21.0"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kirualex/SwiftyGif.git",
       "state" : {
-        "revision" : "db0c122b671bc9760385e0355be00eede3b7bb44",
-        "version" : "5.4.3"
+        "revision" : "4430cbc148baa3907651d40562d96325426f409a",
+        "version" : "5.4.5"
       }
     },
     {

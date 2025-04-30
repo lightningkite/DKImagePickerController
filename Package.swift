@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/lightningkite/DKCamera", exact: "1.6.11"),
-        .package(url: "https://github.com/zhangao0086/DKPhotoGallery", branch: "master"),
+        .package(url: "https://github.com/lightningkite/DKPhotoGallery", exact: "1.0.0"),
         .package(url: "https://github.com/TimOliver/TOCropViewController", from: "2.6.0"),
     ],
     targets: [
