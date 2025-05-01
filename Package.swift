@@ -16,8 +16,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/lightningkite/DKCamera", exact: "1.6.9"),
-        .package(url: "https://github.com/lightningkite/DKPhotoGallery", exact: "1.0.0"),
-        .package(url: "https://github.com/TimOliver/TOCropViewController", from: "2.6.0"),
+        .package(url: "https://github.com/lightningkite/DKPhotoGallery", exact: "1.0.1"),
+        .package(url: "https://github.com/TimOliver/TOCropViewController", from: "2.6.2"),
     ],
     targets: [
         .target(
@@ -25,7 +25,7 @@ let package = Package(
             dependencies: [
                 .product(name: "DKCamera", package: "DKCamera"),
                 .product(name: "DKPhotoGallery", package: "DKPhotoGallery"), 
-                .product(name: "CropViewController", package: "TOCropViewController"),
+                .product(name: "TOCropViewController", package: "TOCropViewController"),
             ],
             path: "Sources/DKImagePickerController"),
     ]
