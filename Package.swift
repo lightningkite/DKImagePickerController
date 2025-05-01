@@ -12,12 +12,12 @@ let package = Package(
     products: [
         .library(
             name: "DKImagePickerController",
-            targets: ["DKImagePickerController", "DKImageDataManager", "Extensions"],
+            targets: ["DKImagePickerController", "DKImageDataManager", "Extensions"]),
     ],
     dependencies: [
         .package(url: "https://github.com/lightningkite/DKCamera", exact: "1.6.9"),
         .package(url: "https://github.com/lightningkite/DKPhotoGallery", exact: "1.0.1"),
-        .package(url: "https://github.com/TimOliver/TOCropViewController", from: "2.6.2"),
+        .package(url: "https://github.com/lightningkite/TOCropViewController", from: "2.6.3"),
     ],
     targets: [
         .target(
@@ -36,6 +36,5 @@ let package = Package(
         .target(
             name: "Extensions",
             path: "Sources/Extensions"),
-        )
     ]
 )

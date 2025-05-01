@@ -2,20 +2,20 @@
   "pins" : [
     {
       "identity" : "dkcamera",
-      "kind" : "localSourceControl",
-      "location" : "/Users/shane/IdeaProjects/campchef/DKCamera",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lightningkite/DKCamera",
       "state" : {
-        "revision" : "ecbf511683ac2b8c4446e584776774e66e8b6687",
+        "revision" : "e1ed8cdabb241c95c48ec9bf666692717a105bf5",
         "version" : "1.6.9"
       }
     },
     {
       "identity" : "dkphotogallery",
-      "kind" : "localSourceControl",
-      "location" : "/Users/shane/IdeaProjects/campchef/DKPhotoGallery",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lightningkite/DKPhotoGallery",
       "state" : {
-        "revision" : "7c4011e072e59258bc871549783f239cf842234b",
-        "version" : "1.0.0"
+        "revision" : "4e54178939489f45a6deb95b1f5db3915600fd62",
+        "version" : "1.0.1"
       }
     },
     {
@@ -30,7 +30,7 @@
     {
       "identity" : "swiftygif",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kirualex/SwiftyGif.git",
+      "location" : "https://github.com/alexiscreuzot/SwiftyGif.git",
       "state" : {
         "revision" : "4430cbc148baa3907651d40562d96325426f409a",
         "version" : "5.4.5"
@@ -39,10 +39,10 @@
     {
       "identity" : "tocropviewcontroller",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/TimOliver/TOCropViewController",
+      "location" : "https://github.com/lightningkite/TOCropViewController",
       "state" : {
-        "revision" : "dad97167bf1be16aeecd109130900995dd01c515",
-        "version" : "2.6.0"
+        "revision" : "77840468d06a7a071920706e9f70453b5eb3acca",
+        "version" : "2.6.3"
       }
     }
   ],
