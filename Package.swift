@@ -16,8 +16,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/lightningkite/DKCamera", exact: "1.6.9"),
-        .package(url: "https://github.com/lightningkite/DKPhotoGallery", exact: "1.0.1"),
-        .package(url: "https://github.com/lightningkite/TOCropViewController", from: "2.6.3"),
+        .package(url: "https://github.com/lightningkite/DKPhotoGallery", branch: "master"),
+        .package(url: "https://github.com/lightningkite/TOCropViewController", branch: "main"),
     ],
     targets: [
         .target(
