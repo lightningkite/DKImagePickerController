@@ -22,11 +22,6 @@ let package = Package(
     targets: [
         .target(
             name: "DKImagePickerController",
-            dependencies: [
-                "DKCamera",
-                "DKPhotoGallery",
-                "TOCropViewController",
-            ],
             path: "Sources")
     ]
 )
