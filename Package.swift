@@ -12,7 +12,7 @@ let package = Package(
     products: [
         .library(
             name: "DKImagePickerController",
-            targets: ["DKImagePickerController", "DKImageDataManager", "Extensions"]),
+            targets: ["DKImagePickerController"]),
     ],
     dependencies: [
         .package(url: "https://github.com/lightningkite/DKCamera", exact: "1.6.9"),
@@ -23,18 +23,10 @@ let package = Package(
         .target(
             name: "DKImagePickerController",
             dependencies: [
-                .product(name: "DKCamera", package: "DKCamera"),
-                .product(name: "DKPhotoGallery", package: "DKPhotoGallery"), 
-                .product(name: "TOCropViewController", package: "TOCropViewController"),
-                .target(name: "DKImageDataManager"),
-                .target(name: "Extensions"),
+                "DKCamera",
+                "DKPhotoGallery",
+                "TOCropViewController",
             ],
-            path: "Sources/DKImagePickerController"),
-        .target(
-            name: "DKImageDataManager",
-            path: "Sources/DKImageDataManager"),
-        .target(
-            name: "Extensions",
-            path: "Sources/Extensions"),
+            path: "Sources")
     ]
 )
