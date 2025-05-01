@@ -15,8 +15,8 @@ let package = Package(
             targets: ["DKImagePickerController"]),
     ],
     dependencies: [
-        .package(url: "../DKCamera", exact: "1.6.9"),
-        .package(url: "../DKPhotoGallery", exact: "1.0.0"),
+        .package(url: "https://github.com/lightningkite/DKCamera", exact: "1.6.9"),
+        .package(url: "https://github.com/lightningkite/DKPhotoGallery", exact: "1.0.0"),
         .package(url: "https://github.com/TimOliver/TOCropViewController", from: "2.6.0"),
     ],
     targets: [
