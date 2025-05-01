@@ -27,6 +27,6 @@ let package = Package(
                 .product(name: "DKPhotoGallery", package: "DKPhotoGallery"), 
                 .product(name: "CropViewController", package: "TOCropViewController"),
             ],
-            path: "Sources"),
+            path: "Sources/DKImagePickerController"),
     ]
 )
