@@ -26,8 +26,8 @@ let package = Package(
                 .product(name: "DKCamera", package: "DKCamera"),
                 .product(name: "DKPhotoGallery", package: "DKPhotoGallery"), 
                 .product(name: "TOCropViewController", package: "TOCropViewController"),
-                .target(name: "DKImageDataManager", package: "DKImageDataManager"),
-                .target(name: "Extensions", package: "Extensions"),
+                .target(name: "DKImageDataManager"),
+                .target(name: "Extensions"),
             ],
             path: "Sources/DKImagePickerController"),
         .target(
