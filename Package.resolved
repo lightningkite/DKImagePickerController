@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/lightningkite/DKPhotoGallery",
       "state" : {
-        "revision" : "4e54178939489f45a6deb95b1f5db3915600fd62",
-        "version" : "1.0.1"
+        "branch" : "master",
+        "revision" : "b560f85f2a247b4bb6b0e31b6ea0fd09c120c316"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/lightningkite/TOCropViewController",
       "state" : {
-        "revision" : "77840468d06a7a071920706e9f70453b5eb3acca",
-        "version" : "2.6.3"
+        "branch" : "main",
+        "revision" : "77840468d06a7a071920706e9f70453b5eb3acca"
       }
     }
   ],
